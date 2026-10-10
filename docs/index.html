@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CloudLeak 合成测试网页</title>
+  <style>
+    body { max-width: 840px; margin: 48px auto; padding: 0 20px; font: 16px system-ui,sans-serif; color: #172b4d; }
+    pre { padding: 20px; background: #f1f5f9; border-radius: 10px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    aside { padding: 18px; background: #fff4d6; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>CloudLeak 合成测试网页</h1>
+  <aside>本页所有凭据均为合成占位值，不对应真实账户。仅用于授权只读扫描测试，不提供登录、验证或后端接口。</aside>
+  <h2>正样本：应识别三个唯一身份</h2>
+  <pre>AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+GITHUB_TOKEN=ghp_1234567890abcdefghijklmnopqrstuvwxyz
+DATABASE_URL=postgresql://demo_user:demo_pass@db.example.invalid:5432/app</pre>
+  <h2>负样本：不应额外产生发现</h2>
+  <pre>APP_NAME=cloudleak-fixture
+DEBUG=false
+API_KEY=&lt;YOUR_API_KEY_HERE&gt;
+DATABASE_URL=postgresql://localhost:5432/app</pre>
+  <p>此页面验证 HTTP 内容采集，不代表 Wiki、微博或知识平台专用连接器。</p>
+</body>
+</html>
