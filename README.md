@@ -103,3 +103,7 @@ python -m cloudleak.cli --url https://MY_GITHUB_NAME.github.io/cloudleak-fixture
 6. 缺失发布时间应标记 unknown；Git提交时间、网页更新时间不必然等于真正公开时间。
 
 自建靶场证明真实网络采集与端到端运行，不证明生产凭据可用性，也不代表真实泄露检出率。
+
+- config/extended-20261017.env: extended synthetic type coverage (non-functional values only).
+- config/clean-extended-20261017.env: matching clean control.
+
