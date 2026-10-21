@@ -1,6 +1,6 @@
 {
   "_notice": "AUTHORIZED SYNTHETIC ONLY; no service accepts this value",
-  "api_token": "Campaign_a13b3d5a6a41dabe99a3c46f24361cde",
+  "api_token": "Campaign_19e0ec91853d21b6a3480b04e3327e30",
   "password": "${CLOUDLEAK_TEST_PASSWORD}",
   "openai_api_key": "sk-short-fixture"
 }
