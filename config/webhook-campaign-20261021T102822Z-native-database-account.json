@@ -1,0 +1,9 @@
+{
+  "_notice": "AUTHORIZED SYNTHETIC ONLY; no account is created",
+  "database": {
+    "host": "db.fixture.invalid",
+    "username": "fixture_service",
+    "password": "Campaign_bfc4a4b80372546f0c6fcd6f32c90272"
+  },
+  "api_key": "${CLOUDLEAK_TEST_API_KEY}"
+}
