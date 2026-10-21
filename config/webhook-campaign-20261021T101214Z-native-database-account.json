@@ -3,7 +3,7 @@
   "database": {
     "host": "db.fixture.invalid",
     "username": "fixture_service",
-    "password": "Campaign_c4a733ad342660e7f932f6d953694f2e"
+    "password": "Campaign_ccd6b94d4202776e6c9f7c497ff313d7"
   },
   "api_key": "${CLOUDLEAK_TEST_API_KEY}"
 }
